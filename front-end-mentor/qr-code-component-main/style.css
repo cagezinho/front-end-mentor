@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    background-color: white;
+    width: 330px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.container img {
+    width: 295px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px 0 0 16px;
+}
+
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container p {
+    color: hsl(220, 15%, 55%);
+    padding: 15px 0px 30px 0;
+    text-align: center;
+    font-size: 14pt;
+    width: 300px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+}
